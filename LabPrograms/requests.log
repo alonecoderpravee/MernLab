@@ -1,0 +1,5 @@
+[GET] /
+[GET] /about
+[GET] /login
+[POST] /about
+[POST] /login
