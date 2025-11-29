@@ -513,6 +513,7 @@ POST /product
 ```json
 {
   "name": "Pen",
+  "description" : "Ball Pen",
   "price": 10
 }
 ```
@@ -736,6 +737,7 @@ POST /product
 ```json
 {
   "name": "Pen",
+  "description" : "Ball Pen",
   "price": 10
 }
 ```
