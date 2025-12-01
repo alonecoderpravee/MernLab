@@ -1,6 +1,6 @@
 # ISE - 5th SEM MERN LAB PROGRAMS - [ PART-A : 1,2,3,4,9 ]  [ PART-B : 5,6,7,8,10 ]
 
-#### Simpler, Optimized Codes are inside ISELab-Programs  ProgramName..-Simpler.js 
+#### Simpler, Optimized Codes are inside ISELab-Programs  ProgramName..-Simple.js 
 
 # 🔐 Problem 1:  
 
