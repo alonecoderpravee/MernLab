@@ -12,18 +12,22 @@ app.use('/',(req,res,next)=>{
 });
 
 function middleware1(req,res,next){
-    console.log("Good morning");
+    console.log(" Middleware Cought");
     next();
 }
 
-function middleware2(req,res,next){
-    console.log("Good Evening");
-    next();
-}
-
-app.get('/',middleware1,middleware2,(req,res)=>{
+app.get('/',middleware1,(req,res)=>{
     res.send("Middleware activated");
     
 })
 
 app.listen(3000);
+
+/*
+
+or if u need some log
+server.listen(3000, () => {
+    console.log("JSON server running at http://localhost:3000/items");
+});
+
+*/
