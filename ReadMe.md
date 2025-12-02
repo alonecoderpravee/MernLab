@@ -296,9 +296,7 @@ POST /items
 **Response**
 ```json
 {
-  "id": 1,
-  "name": "Pen",
-  "price": 10
+    "message": "Item added successfully"
 }
 ```
 
@@ -314,7 +312,6 @@ For example In Postman make the following changes:
 ```json
 [
     {
-        "id": 1,
         "name": "Pen",
         "price": 10
     }
