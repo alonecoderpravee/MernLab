@@ -5,7 +5,6 @@ const app = express();
 app.use(express.json());
 
 const JWT_SECRET = "anytexthere"
-pool.connect(() => { });
 
 app.post('/login', async (req, res) => {
     const { username, password } = req.body;
